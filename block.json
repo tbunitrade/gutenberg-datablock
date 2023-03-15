@@ -1,10 +1,10 @@
 {
-  "apiVersion" : 2,
-  "name": "core/firstblock",
-  "title": "Data Block",
-  "description": "This is mine data block what was created for Gutenberg admin area",
-  "category": "text",
-  "icon": "database",
-  "textdomain": "firstblock",
-  "editorScript": "file:./build/index.js"
+	"apiVersion": 2,
+	"name": "core/firstblock",
+	"title": "Data Block",
+	"description": "This is mine data block what was created for Gutenberg admin area",
+	"category": "text",
+	"icon": "database",
+	"textdomain": "firstblock",
+	"editorScript": "file:./build/index.js"
 }
