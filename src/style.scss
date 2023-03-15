@@ -1,0 +1,11 @@
+$red : red;
+.wp-block-firstblock {
+  outline: 1px solid red;
+  font-weight: bold;
+  font-size: 22px;
+  color:$red;
+  background: #ccc;
+}
+
+
+//block-editor-block-list__block wp-block is-selected wp-block-firstblock

@@ -2,13 +2,18 @@
 //var createElement = wp.element.createElement;
 
 import { registerBlockType } from '@wordpress/blocks';
+import { useBlockProps } from "@wordpress/block-editor";
+import "./style.scss";
 
 registerBlockType( 'core/firstblock', {
 	edit: function () {
-		return <p className="class">"Edit JSX"</p>;
+		const blockProps = useBlockProps();
+		console.log('blockProps',blockProps);
+		return <p {...blockProps}>Edit JSX</p>;
 	},
 
 	save: function () {
-		return <p className="class">"Save JSX ^) "</p>;
+		const blockProps = useBlockProps.save();
+		return <p {...blockProps}>Save JSX </p>;
 	},
 } );
